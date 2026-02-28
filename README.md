@@ -16,5 +16,5 @@ conda activate qwen3_rag
 pip install torch transformers accelerate sentence-transformers
 
 # 安装 RAG 框架与向量数据库组件：
-pip install langchain langchain-community langchain-huggingface chromadb pypdf
+pip install langchain langchain-community langchain-chroma langchain-huggingface chromadb pypdf
 ```
