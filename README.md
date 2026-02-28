@@ -6,7 +6,7 @@
 
 本项目建议使用 Conda 进行环境管理，Python 版本需为 3.10。
 
-### 1. 创建并激活虚拟环境
+### 创建并激活虚拟环境
 
 ```bash
 conda create -n qwen2.5_rag python=3.10
@@ -17,4 +17,14 @@ pip install torch torchvision torchaudio transformers==4.42.4 accelerate==0.32.1
 
 # 安装 RAG 框架与向量数据库组件：
 pip install langchain==0.2.14 langchain-community==0.2.12 langchain-core==0.2.33 langchain-huggingface==0.0.3 langchain-chroma==0.1.2 chromadb==0.5.5 huggingface-hub==0.23.4 pypdf==4.3.1   
+```
+
+## 🚀 快速开始 (Quick Start)
+
+### 准备数据
+将收集或者生成的数据以 PDF 格式存放在 data/ 目录下, 本项目包括 
+
+直接运行主程序即可：
+```bash
+python train.py
 ```
