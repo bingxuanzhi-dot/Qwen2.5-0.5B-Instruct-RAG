@@ -27,6 +27,9 @@ pip install langchain==0.2.14 langchain-community==0.2.12 langchain-core==0.2.33
 ### 1.准备数据
 将收集或者生成的数据以 PDF 格式存放在 data/ 目录下, 本项目包括 [xiaohong.pdf](https://github.com/bingxuanzhi-dot/Qwen2.5-0.5B-Instruct-RAG/blob/main/data/xiaohong.pdf)、[xiaoli.pdf](https://github.com/bingxuanzhi-dot/Qwen2.5-0.5B-Instruct-RAG/blob/main/data/xiaoli.pdf) 和 [xiaoming.pdf](https://github.com/bingxuanzhi-dot/Qwen2.5-0.5B-Instruct-RAG/blob/main/data/xiaoming.pdf)。
 
+
+前往 [Qwen2.5-0.5B-Instruct](https://www.modelscope.cn/models/Qwen/Qwen2.5-0.5B-Instruct)下载模型权重并保存到主目录下。
+
 ### 2.运行推理
 直接运行主程序即可：
 ```bash
